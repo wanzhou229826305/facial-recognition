@@ -6,7 +6,7 @@ import tqdm,logging,os
 import sys
 
 sys.path.insert(0, './ai_workshop')
-import face_label,face_detection_cnn_utils
+from workshop import face_label,face_detection_cnn_utils
 
 #请取消注释
 # def createModel():

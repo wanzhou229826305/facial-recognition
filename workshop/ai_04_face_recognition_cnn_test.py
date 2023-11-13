@@ -1,5 +1,5 @@
 import unittest
-import ai_04_face_recognition_cnn
+from workshop import ai_04_face_recognition_cnn
 
 class FaceRecognitionCNN_test(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:

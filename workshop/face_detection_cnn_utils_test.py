@@ -7,7 +7,7 @@ import PIL
 
 sys.path.insert(0, './ai_workshop')
 import face_detection_cnn_utils
-import face_label
+from workshop import face_label
 
 class face_detection_cnn_utils_utils_test(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:

@@ -3,7 +3,7 @@ import numpy as np
 import tqdm
 import os,re,logging,random,shutil
 from PIL import Image,ImageEnhance
-import face_label
+from workshop import face_label
 
 if torch.cuda.is_available():
     device = torch.device("cuda")

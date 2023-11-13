@@ -10,7 +10,7 @@ import os
 from PIL import Image,ImageEnhance
 import copy
 import shutil
-import face_label
+from workshop import face_label
 
 if torch.cuda.is_available():
     device = torch.device("cuda")

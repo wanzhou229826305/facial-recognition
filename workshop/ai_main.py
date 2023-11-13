@@ -1,5 +1,5 @@
-import ai_03_face_detection_cnn
-import ai_04_face_recognition_cnn
+from workshop import ai_03_face_detection_cnn
+from workshop import ai_04_face_recognition_cnn
 import ai_04_face_recognition_vgg16_cnn
 import face_detection_cnn_utils
 

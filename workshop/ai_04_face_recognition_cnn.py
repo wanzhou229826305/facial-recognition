@@ -5,8 +5,8 @@ import numpy as np
 import tqdm
 import logging
 
-import face_recognition_cnn_utils
-import face_label
+from workshop import face_recognition_cnn_utils
+from workshop import face_label
 
 currentModelName = 'face-recognition-v10'
 

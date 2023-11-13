@@ -5,7 +5,7 @@ import os
 import numpy as np
 import PIL
 
-import face_label
+from workshop import face_label
 
 class FaceLabel_test(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:

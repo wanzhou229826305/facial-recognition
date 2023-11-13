@@ -3,7 +3,7 @@ import sys
 import torch.utils
 import PIL
 
-import ai_03_face_detection_cnn
+from workshop import ai_03_face_detection_cnn
 
 class FaceDetectionCNN_test(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:

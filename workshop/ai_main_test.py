@@ -3,7 +3,7 @@ import os
 import PIL
 import numpy
 
-import ai_main
+from workshop import ai_main
 
 class FaceRecognitionMain_test(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:

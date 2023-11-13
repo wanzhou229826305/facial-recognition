@@ -4,7 +4,7 @@ import torch.nn as nn
 import numpy as np
 import tqdm,logging
 
-import face_label,face_detection_cnn_utils
+from workshop import face_label,face_detection_cnn_utils
 
 currentModelName = 'face-detection'
 
